@@ -16,6 +16,9 @@ dependencies {
 android {
     compileSdkVersion 23
     buildToolsVersion "22.0.1"
+    defaultConfig {
+        applicationId "ro.ciubex.dscautorename"
+    }
 
     sourceSets {
         main {
@@ -37,7 +40,7 @@ android {
         applicationVariants.all { variant ->
             variant.outputs.each { output ->
                 def apk = output.outputFile;
-                def newName = "DSCAutoRename.apk";
+                def newName = "DSCAutoRenameRT.apk";
                 output.outputFile = new File(apk.parentFile, newName);
             }
         }

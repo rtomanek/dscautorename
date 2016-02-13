@@ -1,6 +1,6 @@
 <resources>
 
-    <string name="app_name">DSC Auto Rename</string>
+    <string name="app_name">DSC Auto Rename RT</string>
 
     <!-- Strings related to Settings -->
     <string name="general_settings">Configurações</string>
